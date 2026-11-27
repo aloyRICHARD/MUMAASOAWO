@@ -1,0 +1,25 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--ink:17 17 17;--ivory:244 241 235;--surface:255 255 255;color-scheme:light}
+.dark{--ink:244 241 235;--ivory:17 17 17;--surface:32 32 32;color-scheme:dark}
+.dark body::before{background:linear-gradient(rgb(17 17 17 / .8),rgb(17 17 17 / .8)),url('/images/dark-bg.webp') center/cover no-repeat;background-blend-mode:normal}
+body{@apply bg-ivory text-ink font-sans antialiased;position:relative}
+body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:#F4F1EB url('/images/paper-bg.webp') center/cover no-repeat;background-blend-mode:multiply}
+h1,h2,h3{@apply font-display tracking-tight}
+:focus-visible{outline:2px solid rgb(var(--ink));outline-offset:2px}
+.glass{background:rgb(var(--ivory) / .96);border:1px solid rgb(var(--ink) / .1)}
+@supports (backdrop-filter:blur(1px)){.glass{background:rgb(var(--ivory) / .62);backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);box-shadow:inset 0 1px 0 rgba(255,255,255,.6),0 8px 30px rgba(0,0,0,.12)}}
+.btn{@apply inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-medium bg-ink text-ivory transition-opacity hover:opacity-85 disabled:opacity-40}
+.btn-lime{@apply btn bg-lime text-black}.btn-ghost{@apply btn bg-transparent text-ink border border-ink}
+.input{@apply w-full border border-stone bg-surface text-ink px-3 py-3 text-sm}
+.err{@apply text-xs text-red-700 mt-1}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+@media (hover:hover){
+ .pop{transition:transform .45s cubic-bezier(.34,1.56,.64,1),opacity .3s}
+ .pop:hover{transform:translateY(-8px) scale(1.04);z-index:10}
+ .pop-img{transition:box-shadow .3s}
+ .pop:hover .pop-img,.pop:hover.pop-img{box-shadow:0 22px 40px -12px rgba(0,0,0,.35)}
+ .pop-zoom{transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+ .pop:hover .pop-zoom{transform:scale(1.08)}
+ .grid:has(.pop:hover)>.pop:not(:hover){opacity:.6;transform:scale(.98)}
+}

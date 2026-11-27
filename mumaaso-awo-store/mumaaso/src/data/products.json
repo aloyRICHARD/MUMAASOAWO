@@ -1,0 +1,138 @@
+[
+ {
+  "slug": "grey-kampala-sweatshirt",
+  "name": "Kampala 256 Sweatshirt",
+  "price": 95000,
+  "gender": "women",
+  "colour": "Grey",
+  "hex": "#9AA3AE",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "images": [
+   "/images/products/grey-kampala-sweatshirt/01-front.webp",
+   "/images/products/grey-kampala-sweatshirt/02-van.webp",
+   "/images/products/grey-kampala-sweatshirt/03-van-close.webp"
+  ],
+  "tag": "Best Seller",
+  "description": "Soft grey crew sweatshirt with the Kampala skyline print and 256 chest mark.",
+  "details": [
+   "Fabric: confirm with label",
+   "Made in Uganda",
+   "Unisex relaxed fit"
+  ],
+  "stock": 12
+ },
+ {
+  "slug": "orange-tie-dye-tee",
+  "name": "KLA 256 Bleach-Dye Tee",
+  "price": 65000,
+  "gender": "women",
+  "colour": "Orange",
+  "hex": "#E0A23A",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "images": [
+   "/images/products/orange-tie-dye-tee/01-front.webp",
+   "/images/products/orange-tie-dye-tee/02-full.webp",
+   "/images/products/orange-tie-dye-tee/03-street.webp",
+   "/images/products/orange-tie-dye-tee/04-wide.webp"
+  ],
+  "tag": "New",
+  "description": "Oversized tee, hand bleach-dyed so no two are alike. KLA 256 print.",
+  "details": [
+   "Fabric: confirm with label",
+   "Made in Uganda",
+   "Unisex relaxed fit"
+  ],
+  "stock": 12
+ },
+ {
+  "slug": "black-kla-tee",
+  "name": "KLA 256 Tee",
+  "price": 55000,
+  "gender": "women",
+  "colour": "Black",
+  "hex": "#111111",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "images": [
+   "/images/products/black-kla-tee/01-front.webp"
+  ],
+  "tag": "New",
+  "description": "Heavy black cotton tee with the KLA 256 front print.",
+  "details": [
+   "Fabric: confirm with label",
+   "Made in Uganda",
+   "Unisex relaxed fit"
+  ],
+  "stock": 12
+ },
+ {
+  "slug": "black-kampala-top",
+  "name": "Kampala Graphic Top",
+  "price": 85000,
+  "gender": "men",
+  "colour": "Black",
+  "hex": "#111111",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "images": [
+   "/images/products/black-kampala-top/01-lifestyle.webp"
+  ],
+  "tag": null,
+  "description": "Black long-sleeve with Kampala graphic down the sleeve.",
+  "details": [
+   "Fabric: confirm with label",
+   "Made in Uganda",
+   "Unisex relaxed fit"
+  ],
+  "stock": 12
+ },
+ {
+  "slug": "red-kampala-tee",
+  "name": "Kampala Tee",
+  "price": 60000,
+  "gender": "men",
+  "colour": "Red",
+  "hex": "#C62828",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "images": [
+   "/images/products/red-kampala-tee/01-front.webp",
+   "/images/products/red-kampala-tee/02-duo.webp"
+  ],
+  "tag": "Best Seller",
+  "description": "Bold red cotton tee with Kampala lettering across the chest.",
+  "details": [
+   "Fabric: confirm with label",
+   "Made in Uganda",
+   "Unisex relaxed fit"
+  ],
+  "stock": 12
+ }
+]
